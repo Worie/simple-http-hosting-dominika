@@ -1,0 +1,34 @@
+<div class="p-customer-branding">
+  <o-banner data="data.bannerData"></o-banner>
+  <o-info-section data="data.infoSection1"></o-info-section>
+  <o-info-section data="data.infoSection2"></o-info-section>
+</div>
+
+<!-- tak nie bedzie w plikach z templatkami, to jest tylko na potrzeby nagrania -->
+<!-- prawdopodobnie takie dane otrzymamy z jakiegos API -->
+<script>
+  data = {
+    bannerData: {
+      infoSection: { 
+        ctaButton: { content: 'CONTACTEER ONS' },
+        moreButton: { content: 'ONTDEK MEER' },
+        aboutLink: { url: 'google.com', text: 'Inloggen'},
+      },
+      image: { src: 'kitten.png', alt: 'Cute ;3'},
+    },
+    infoSection1: { 
+      ctaButton: { content: 'CONTACTEER ONS' },
+      moreButton: { content: 'ONTDEK MEER' },
+      aboutLink: { url: 'google.com', text: 'Inloggen'},
+    },
+    ininfoSection2: { 
+      ctaButton: { content: 'CONTACTEER ONS' },
+      moreButton: { content: 'ONTDEK MEER' },
+      aboutLink: { url: 'google.com', text: 'Inloggen'},
+    },
+  };
+</script>
+
+.p-customer-branding .m-text-section {
+  
+}
